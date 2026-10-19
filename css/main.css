@@ -1,7 +1,24 @@
-h1 {
-    color:#C9AD65;
+body {
+  background-color:#1B3025;
 }
 
-h2 {
-    color:#547B52
+.parent {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  height: 33vh;
+}
+
+.boxmain {
+  padding: 20px;
+}
+
+.center-text {
+    display: flex;
+    text-align: left;
+}
+
+.Large-Text {
+    font-size:45px;
+    color:#1B3025;
+    
 }
